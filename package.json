@@ -14,7 +14,6 @@
     "@babel/runtime": "^7.18.9",
     "@types/node": "^18.0.6",
     "aws-sdk": "^2.1177.0",
-    "axios": "^0.27.2",
     "dotenv": "^16.0.1",
     "eslint": "^8.20.0",
     "json-2-csv": "^3.17.1",
