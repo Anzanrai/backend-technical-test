@@ -28,5 +28,3 @@ const uploadCSV = async (): Promise<void> => {
 export const task5 = async () => {
   await uploadCSV();
 };
-
-task5();
