@@ -1,4 +1,5 @@
-const { task2 } = require('./task2');
+import { task2 } from './task2';
+
 import {
   LessonResponse,
   Content,
