@@ -36,7 +36,6 @@ const contentToPrintFormat = (content: Content) => {
   return outputString;
 };
 
-export const task3 = async () => {
-  const apiResponse = await task2();
-  console.log(contentToPrintFormat(apiResponse));
+export const task3 = async (apiResponse: Content) => {
+  return contentToPrintFormat(apiResponse);
 };

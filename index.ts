@@ -7,9 +7,9 @@ import { task4 } from './task4';
 const main = async (): Promise<void> => {
   console.log('Hello World');
   await task1();
-  await task2();
-  await task3();
-  await task4();
+  const apiResponse = await task2();
+  console.log(await task3(apiResponse));
+  await task4(apiResponse);
   await task5();
 };
 main();

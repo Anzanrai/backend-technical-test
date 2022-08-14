@@ -2,7 +2,7 @@ import * as dotenv from 'dotenv';
 import { S3 } from 'aws-sdk';
 const fs = require('fs');
 
-const uploadCSV = async (): Promise<void> => {
+export const task5 = (): void => {
   dotenv.config();
   const s3 = new S3({
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
@@ -23,8 +23,4 @@ const uploadCSV = async (): Promise<void> => {
     if (err) console.log(err, err.stack);
     else console.log(data);
   });
-};
-
-export const task5 = async () => {
-  await uploadCSV();
 };
