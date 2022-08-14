@@ -5,6 +5,9 @@
   "repository": "git@github.com:Inquisitive-Learners/backend-technical-test.git",
   "author": "Crespo Wang <crespo.wang@inquisitive.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "tsc index.ts && node index.js"
+  },
   "dependencies": {
     "@babel/cli": "^7.18.9",
     "@babel/core": "^7.18.9",
@@ -17,6 +20,7 @@
     "dotenv": "^16.0.1",
     "eslint": "^8.20.0",
     "json-2-csv": "^3.17.1",
+    "lodash": "^4.17.21",
     "node-fetch": "^2.6.7",
     "prettier": "^2.7.1",
     "ts-loader": "^9.3.1",
